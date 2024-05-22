@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables & Forms</title>
+</head>
+<body>
+    <table border = 1>
+        <!-- table had -->
+        <thead>
+            <th>Name</th>
+            <th>Salary</th>
+            <th>Department</th>
+            <th>Age</th>
+        </thead>
+        <!-- table row -->
+        <tr>
+            <td>Cristiano Ronaldo</td>
+            <td>1000</td>
+            <td>Footballer</td>
+            <td>39</td>
+        </tr>
+
+        <tr>
+            <td>Lionel Messi</td>
+            <td>950</td>
+            <td>Footballer</td>
+            <td>36</td>
+        </tr>
+    </table>
+
+
+        <br><br><br>
+
+        <form action = "images.html">
+            <label for="name">Name :</label>
+            <input type="text" name="name" id="name">
+            <br>
+            <label for="salary">Salary :</label>
+            <input type="text" name="salary" id="salary">
+            <br>
+            <input type="submit">
+        </form>
+
+        <br><br><br>
+
+        <form action = "htmlbasics.html">
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <br>
+            <label for="passw">Passw:</label>
+            <input type="password" name="passw" id="passw" placeholder="Enter your password">
+            <br>
+            <input type="submit" value="Login">
+        </form>
+
+        <br><br><br>
+
+        <form action = "divspanhtml.html">
+            <p>Star Wars vs. Star Trek?</p>
+
+            <label for="starwars">Starwars :</label>
+            <input type="radio" name="movie" id="starwars" value="starwars">
+            <br>
+            <label for="startrek">Startrek :</label>
+            <input type="radio" name="movie" id="startrek" value="startrek">
+            <br>
+            <input type="submit" value="Choose">
+        </form>
+
+        <br><br><br>
+
+        <form action="htmllist.html">
+            <p>Rate your driver!</p>
+            <select name="rating" id="rating">
+                <option>5</option>
+                <option>4</option>
+                <option>3</option>
+                <option>2</option>
+                <option>1</option>
+            </select>
+
+            <br>
+
+            <input type="submit" value="Choose">
+        </form>
+
+</body>
+</html>
