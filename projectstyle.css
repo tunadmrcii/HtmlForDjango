@@ -7,6 +7,34 @@ h3 {
     color: aqua;
 }
 
+#myparagraph {
+    background-color: white;
+}
+
 p {
+    color: chocolate
+}
+
+.firstdiv {
+    background-color: cadetblue;
+}
+
+div {
+    background-color: black;
+}
+
+span {
     background-color: blue;
+}
+
+h1 {
+    color: white;
+}
+
+#secondparagraph {
+    color: chartreuse;
+}
+
+.seconddiv {
+    background-color: crimson;
 }
