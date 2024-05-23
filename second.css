@@ -1,0 +1,24 @@
+body {
+    font-family: 'Pacifico';
+}
+
+h1 {
+    font-family: Georgia;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+#tuna{
+    border: 7px solid black;
+    padding-top: 30px;
+    margin: 30px;
+    
+}
+
+#demirci{
+    border: 7px solid purple;
+    margin: 100px;
+}
